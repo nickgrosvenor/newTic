@@ -9,11 +9,11 @@ function TicTacCtrl($scope){
 			
 		if(playerTurn % 2 == 1)
 
-			event.target.innnerHTML = "IMG/Screech2.jpg";
+			event.target.innerHTML = "<img src='img/urkel.jpg'>";
 		else
-			event.target.innerHTML = "IMG/urkel.jpg";
+			event.target.innerHTML = "<img src='img/Screech2.jpg'>";
 		
-		++playerTurn
+		playerTurn++;
 
 	};
 }
