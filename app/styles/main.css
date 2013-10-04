@@ -3,10 +3,42 @@
         height:450px auto;
         margin:0 auto;
         position: relative;
+        text-align: center; 
+        padding-top: 10px;
+ }
+
+.sqr {
+       float:left;
+        width:150px; 
+        height:150px; 
+        
     }
+
+.topLine{
+    border-top:8px solid grey;
+
+}
+.bottomLine{
+    border-bottom:8px solid lightgrey;
+
+}
+.rightLine{
+    border-right:8px solid grey;
+
+}
+.leftLine{
+    border-left:8px solid lightgrey;
+}
+
+body {
+        background: url(http://i1297.photobucket.com/albums/ag38/wrensalert1/clean_zpsd7b467b0.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+/*
 div{
-text-align: center; 
-padding-top: 10px;
+
 }
 
     #cell1_1 {
@@ -74,11 +106,7 @@ padding-top: 10px;
         border-left:8px solid lightgrey}
 
 
-body {
-        background: url(http://i1297.photobucket.com/albums/ag38/wrensalert1/clean_zpsd7b467b0.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-}
+
 
    .popup_screech_wins{
     width:720px;
@@ -102,4 +130,4 @@ body {
 
      }
     .group3{ 
-    }
+    }*/
