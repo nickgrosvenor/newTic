@@ -9,7 +9,7 @@
 
 
 
-		<div ng-class="{sqr:true,topLine:$parent.$index != 0, leftLine:$index !=0}" 
+		<div ng-class="{sqr:true,topLine:$parent.$index != 0, leftLine:$index !=0,rightLine:$index != 2, bottomLine:$parent.$index != 2 }" 
 		ng-repeat="cell in row"
 					ng-click="clickSquare(
 					$parent.$index, $index)"

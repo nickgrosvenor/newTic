@@ -9,9 +9,9 @@ function TicTacCtrl($scope){
 			
 		if(playerTurn % 2 == 1)
 
-			event.target.innnerHTML = "X";
+			event.target.innnerHTML = "IMG/Screech2.jpg";
 		else
-			event.target.innerHTML = "O";
+			event.target.innerHTML = "IMG/urkel.jpg";
 		
 		++playerTurn
 
